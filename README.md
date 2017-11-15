@@ -4,7 +4,7 @@ A backend server for [Kakin](https://github.com/bitnari/kakin)
 
 ## API
 
-** res 응답 코드 **
+*** res 응답 코드 ***
 
 코드 | 설명
 --|--
@@ -22,7 +22,7 @@ A backend server for [Kakin](https://github.com/bitnari/kakin)
 
 ```POST /api/v1/verify ```
 
-** 요청 파라미터 **
+*** 요청 파라미터 ***
 
 키 | 설명 | 예시
 --|--|--
@@ -32,14 +32,14 @@ id | 반 번호 | 1
 password | 유저의 비밀번호 | specialpassword1234
 
 
-** 응답 **
+*** 응답 ***
 
 키 | 설명 | 예시
 --|--|--
 res | 성공 여부 | 0
 token | 토큰 | (32자 랜덤 문자열)
 
-** 응답 예시 **
+*** 응답 예시 ***
 
 ```
 Status 418 Teapot
@@ -55,13 +55,13 @@ Status 418 Teapot
 
 ```POST /api/v1/renew ```
 
-** 요청 파라미터 **
+*** 요청 파라미터 ***
 
 키 | 설명 | 예시
 --|--|--
 token | 토큰 | (32자 랜덤 문자열)
 
-** 응답 **
+*** 응답 ***
 
 키 | 설명 | 예시
 --|--|--
@@ -72,21 +72,21 @@ res | 성공 여부 | 0
 
 ```POST /api/v1/account ```
 
-** 요청 파라미터 **
+*** 요청 파라미터 ***
 
 키 | 설명 | 예시
 --|--|--
 token | 토큰 | (32자 랜덤 문자열)
 password | 유저의 비밀번호 | specialpassword1234
 
-** 응답 **
+*** 응답 ***
 
 키 | 설명 | 예시
 --|--|--
 id | 유저의 아이디 | 10101
 gold | 유저의 골드 | 0
 
-** 응답 예시 **
+*** 응답 예시 ***
 
 ```
 Status 200 OK
@@ -103,20 +103,20 @@ Status 200 OK
 
 ```POST /api/v1/usegold ```
 
-** 요청 파라미터 **
+*** 요청 파라미터 ***
 
 키 | 설명 | 예시
 --|--|--
 token | 토큰 | (32자 랜덤 문자열)
 gold | 사용할 골드 | 0
 
-** 응답 **
+*** 응답 ***
 
 키 | 설명 | 예시
 --|--|--
 res | 성공 여부 | 0
 
-** 응답 예시 **
+*** 응답 예시 ***
 ```
 Status 418 Teapot
 
