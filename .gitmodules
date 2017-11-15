@@ -1,0 +1,3 @@
+[submodule "kakin"]
+	path = kakin
+	url = https://github.com/bitnari/kakin
